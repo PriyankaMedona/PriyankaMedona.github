@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="a.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <img src="your-photo.jpg" alt="Your Name">
+        </div>
+        <h1>My Portfolio</h1>
+        <button id="menu-toggle" class="menu-toggle">Menu</button>
+        <button id="theme-toggle" class="theme-toggle">Toggle Theme</button>
+        <nav id="menu" class="hidden">
+          <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section id="intro" class="intro-section">
+    <div class="container">
+      <div class="intro-content">
+        <div class="intro-text">
+          <h2>Hello, I'm [Your Name]</h2>
+          <p>Welcome to my portfolio. Here you'll find information about my skills, projects, and more.</p>
+        </div>
+        <div class="intro-photo">
+          <img src="your-photo.jpg" alt="Your Name">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="section resume-section">
+    <div class="container">
+      <div class="resume-container">
+        <div class="resume-content">
+          <h2>Resume</h2>
+          <p>Click below to view my resume:</p>
+          <div class="resume-link" onclick="openResume()">
+            <span>View Resume</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <p>Your projects content goes here.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Your contact information goes here.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <p>Your skills and expertise go here.</p>
+    </div>
+  </section>
+
+  <script src="a.js"></script>
+</body>
+</html>
