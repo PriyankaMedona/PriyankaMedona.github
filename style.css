@@ -119,6 +119,15 @@ nav ul li a:hover:before {
 }
 
 
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 
 
 
